@@ -7,7 +7,7 @@
 
 body {
     font-size: 100%;
-    background: ;
+    background: linear-gradient(68.15deg, #00008B 16.62%, #4682B4 85.61%);
 }
 
 .cabecalho {
@@ -15,4 +15,21 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: 24px;
+}
+
+.cabecalho-imagem {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 10px 30px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala' sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
 }
