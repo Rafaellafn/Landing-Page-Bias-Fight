@@ -30,8 +30,10 @@ body {
 .cabecalho-menu-item {
   font-family: 'Sarala' sans-serif;
   color: black;
+  position: relative;
   font-weight: 400;
   font-size: 18px;
+  margin: 0 auto;
 }
 
 .conteudo {
@@ -110,4 +112,15 @@ conteudo-principal-escrito-botao {
   font-weight: 300;
   font-size: 18px;
   color: black;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid black;
+}
+
+.rodape-imagem {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
 }
