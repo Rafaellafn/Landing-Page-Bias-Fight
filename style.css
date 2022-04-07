@@ -19,7 +19,7 @@ body {
 }
 
 .cabecalho-imagem {
-  height: 72px;
+  width: 300px;
 }
 
 .cabecalho-menu {
@@ -38,7 +38,6 @@ body {
 
 .conteudo {
   margin-bottom: 48px;
-  border-top: 0.4px solid black;
 }
 
 .conteudo-principal {
@@ -55,7 +54,7 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-  font-family: 'Righteous', cursive;
+  font-family:'Righteous', cursive;
   font-weight: 400;
   font-size: 64px;
   color: black;
@@ -86,7 +85,7 @@ conteudo-principal-escrito-botao {
 }
 
 .conteudo-principal-imagem {
-  height: 400px;
+  height: 300px;
 }
 
 .conteudo-secundario {
@@ -116,7 +115,6 @@ conteudo-principal-escrito-botao {
 
 .rodape {
   padding: 32px;
-  border-top: 0.4px solid black;
 }
 
 .rodape-imagem {
