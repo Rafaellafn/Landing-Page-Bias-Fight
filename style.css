@@ -19,7 +19,8 @@ body {
 }
 
 .cabecalho-imagem {
-  width: 300px;
+  height: 72px;
+  margin-right: 650px;
 }
 
 .cabecalho-menu {
@@ -111,6 +112,8 @@ conteudo-principal-escrito-botao {
   font-weight: 300;
   font-size: 18px;
   color: black;
+  line-height: 30px;
+  padding-right: 400px;
 }
 
 .rodape {
