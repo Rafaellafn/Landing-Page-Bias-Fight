@@ -30,7 +30,7 @@ body {
 
 .cabecalho-menu-item {
   font-family: 'Sarala' sans-serif;
-  color: #ffffff;
+  color: #DAA520;
   position: relative;
   font-weight: 400;
   font-size: 18px;
@@ -81,11 +81,35 @@ s
    width: 40%;
 }
 
+.conteudo-secundario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Sarala', sans-serif;
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-top: 90px;
+  color: #ffffff;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-size: 18px;
+}
 
 .beneficios {
-  padding: 60px;
+  font-size: 28px;
+  margin: 60px;
+  margin-top: 90px;
+  color: #ffffff;
+}
+
+.beneficios-itens {
+  padding: 30px;
   color: #ffffff;
   font-family: 'Salara', sans-serif;
+  margin-top: 5px;
+  font-size: 24px
 }
 
 ul {
@@ -95,29 +119,45 @@ ul {
 .itens {
     vertical-align: auto;
     margin: 40px;
+    margin-top: 10px;
     color: #ffffff;
+    padding: 2px;
+    font-size: 20px;
   }
-
 
 .rodape {
   padding: 32px;
+
 }
 
-.texto-rodape {
+.texto-final {
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   list-style-type: none;
   font-size: 24px;
   transition: 1s all;
   cursor: pointer;
 }
 
-.texto-rodape:hover {
+.texto-final:hover {
   background: #DAA520;
   transform: scale(1.2);
 }
 
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0 ;
+}
 
 .rodape-imagem {
-  height: 48px;
+  height: 50px;
   display: block;
   margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+   padding: 40px 0;
 }
