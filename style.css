@@ -94,7 +94,6 @@ ul {
 
 .itens {
     vertical-align: auto;
-    width: 20px;
     margin: 40px;
     color: #ffffff;
   }
@@ -103,6 +102,19 @@ ul {
 .rodape {
   padding: 32px;
 }
+
+.texto-rodape {
+  list-style-type: none;
+  font-size: 24px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.texto-rodape:hover {
+  background: #DAA520;
+  transform: scale(1.2);
+}
+
 
 .rodape-imagem {
   height: 48px;
