@@ -1,0 +1,133 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+body {
+    font-size: 100%;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.navegacao {
+    display: flex;
+    gap: 10px 30px;
+    margin-bottom: 150px;
+}
+
+.navegacao-item {
+    font-family: 'Sarala' sans-serif;
+    color: black;
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.imagem-logo {
+    height: 100px;
+    margin-right: 650px; 
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+main {
+    width: 940px;
+    margin: auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0 ;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #ffffff;
+    padding: 8px 15px ;
+}
+
+.rodape-imagem {
+    height: 50px;s
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.paragrafo-contato {
+    margin-right: 750px;
+    font-size: 22px;
+}
