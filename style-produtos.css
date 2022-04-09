@@ -1,14 +1,43 @@
+* {
+    margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
 header {
     background: black;
 }
 
-.caixa {
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+    justify-content: center;
+    padding: 24px;
+}    
 
 .imagem-logo {
     height: 72px;
-    margin-right: 650px;
+    margin-right: 650px; 
 }
+
+}
+.rodape-imagem {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+     padding: 40px 0;
+}
+
+.produtos {
+
+}
+
+
+
