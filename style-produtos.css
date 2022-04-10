@@ -45,10 +45,10 @@ body {
 }
 
 .produtos-item img {
-    margin: auto;
     display: block ;
     width: 20%;
     padding: 10px;
+    align-content: center;
 }
 
 .rodape-imagem {
